@@ -3,34 +3,36 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    title: "CryptoPlace",
+    description:
+      "A web app that displays real-time crypto data using the CoinGecko API. Includes search, multi-currency support (INR, USD, EUR), and charts via react-google-chart.",
+    image: "/projects/project1.png", // Replace with actual image path
+    tags: ["React", "Tailwind CSS", "CoinGecko API"],
+    demoUrl: "https://your-live-link.com", // Replace with actual live link
+    githubUrl: "#", // Optional: add GitHub link if available
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Gym Management System Backend",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Scalable Spring Boot backend for managing gym members, subscriptions, and dashboard stats. Includes REST APIs, Swagger integration, and MySQL support.",
+    image: "/projects/project1.png", // Replace with actual image path
+    tags: ["Spring Boot", "MySQL", "JPA", "Swagger"],
+    demoUrl: "#", // Optional
+    githubUrl: "https://github.com/yourusername/gym-management-backend", // Replace with actual repo
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Codlet - Collaborative Code Editor",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Real-time collaborative code editor with chat, voice, whiteboard, and support for multi-language code execution. Built for pair programming and remote interviews.",
+    image: "/projects/project1.png", // Replace with actual image path
+    tags: ["React", "Node.js", "Express", "Socket.io", "Docker"],
+    demoUrl: "#", // Optional
+    githubUrl: "https://github.com/yourusername/codlet", // Replace with actual repo
   },
 ];
+
 
 export const ProjectsSection = () => {
   return (
