@@ -13,13 +13,12 @@ const tagIcons = {
   Docker:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
   "Tailwind CSS": "/tailwind.svg", // Assuming you have this in your public folder
-  "CoinGecko API":
-    "https://static.coingecko.com/s/coingecko-logo-02cbd083b1ec198cc0ed54e6c6d1fa50812820556f36c93d75d99154f7f2a39e.png",
+  "CoinGecko API": "/coingecko.svg",
   "Spring Boot":
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
   MySQL:
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
-  JPA: "https://miro.medium.com/v2/resize:fit:2400/format:webp/1*o_2fQcR6N4v1re1Z9cBlCw.png",
+  JPA: "https://spring.io/img/projects/spring-data.svg",
   Swagger: "/swagger.svg",
 };
 
