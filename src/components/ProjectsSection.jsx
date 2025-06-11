@@ -16,7 +16,7 @@ const projects = [
     title: "Gym Management System Backend",
     description:
       "Scalable Spring Boot backend for managing gym members, subscriptions, and dashboard stats. Includes REST APIs, Swagger integration, and MySQL support.",
-    image: "/projects/project1.png", // Replace with actual image path
+    image: "/projects/project2.png", // Replace with actual image path
     tags: ["Spring Boot", "MySQL", "JPA", "Swagger"],
     demoUrl: "#", // Optional
     githubUrl: "https://github.com/yourusername/gym-management-backend", // Replace with actual repo
@@ -32,7 +32,6 @@ const projects = [
     githubUrl: "https://github.com/yourusername/codlet", // Replace with actual repo
   },
 ];
-
 
 export const ProjectsSection = () => {
   return (
@@ -58,14 +57,17 @@ export const ProjectsSection = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-fill transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
-                    <span key={tag.id} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                    <span
+                      key={tag.id}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}
