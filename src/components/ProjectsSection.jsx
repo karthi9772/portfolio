@@ -3,33 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "CryptoPlace",
-    description:
-      "A web app that displays real-time crypto data using the CoinGecko API. Includes search, multi-currency support (INR, USD, EUR), and charts via react-google-chart.",
-    image: "/projects/project1.png", // Replace with actual image path
-    tags: ["React", "Tailwind CSS", "CoinGecko API"],
-    demoUrl: "https://your-live-link.com", // Replace with actual live link
-    githubUrl: "#", // Optional: add GitHub link if available
-  },
-  {
-    id: 2,
-    title: "Gym Management System Backend",
-    description:
-      "Scalable Spring Boot backend for managing gym members, subscriptions, and dashboard stats. Includes REST APIs, Swagger integration, and MySQL support.",
-    image: "/projects/project2.png", // Replace with actual image path
-    tags: ["Spring Boot", "MySQL", "JPA", "Swagger"],
-    demoUrl: "#", // Optional
-    githubUrl: "https://github.com/yourusername/gym-management-backend", // Replace with actual repo
-  },
-  {
-    id: 3,
     title: "Codlet - Collaborative Code Editor",
     description:
       "Real-time collaborative code editor with chat, voice, whiteboard, and support for multi-language code execution. Built for pair programming and remote interviews.",
-    image: "/projects/project1.png", // Replace with actual image path
+    image: "/projects/project1.png",
     tags: ["React", "Node.js", "Express", "Socket.io", "Docker"],
+    demoUrl: "https://cod-let.vercel.app/",
+    githubUrl: "https://github.com/karthi9772/CodLet",
+  },
+  {
+    id: 2,
+    title: "CryptoPlace",
+    description:
+      "A web app that displays real-time crypto data using the CoinGecko API. Includes search, multi-currency support (INR, USD, EUR), and charts via react-google-chart.",
+    image: "/projects/project2.png",
+    tags: ["React", "Tailwind CSS", "CoinGecko API"],
+    demoUrl: "https://crypto-tracker-karthi9772.netlify.app/",
+    githubUrl: "#",
+  },
+  {
+    id: 3,
+    title: "Gym Management System Backend",
+    description:
+      "Scalable Spring Boot backend for managing gym members, subscriptions, and dashboard stats. Includes REST APIs, Swagger integration, and MySQL support.",
+    image: "/projects/project3.png", // Replace with actual image path
+    tags: ["Spring Boot", "MySQL", "JPA", "Swagger"],
     demoUrl: "#", // Optional
-    githubUrl: "https://github.com/yourusername/codlet", // Replace with actual repo
+    githubUrl: "https://github.com/karthi9772/gym-management-backend", // Replace with actual repo
   },
 ];
 
