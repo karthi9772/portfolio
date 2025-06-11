@@ -21,10 +21,11 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I'm a full-stack developer with hands-on experience in building
-            modern web apps using React, Spring Boot, and MySQL. I turn ideas
-            into interactive and scalable digital experiences. Passionate about
-            problem-solving and always learning.
+            I'm a full-stack developer skilled in the MERN stack, Java, Spring
+            Boot, and MySQL. I love building modern, scalable web apps from
+            scratch and writing clean, efficient, and complex code. I'm
+            passionate about solving real-world problems through technology and
+            always eager to learn more.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
